@@ -101,6 +101,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.fm.transmitter=false \
 vendor.hw.fm.init=0
 
+# LMKD
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.lmk.low=1001 \
+ro.lmk.medium=800 \
+ro.lmk.critical=0 \
+ro.lmk.use_minfree_levels=true
+
 # Frp
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.frp.pst=/dev/block/bootdevice/by-name/config
