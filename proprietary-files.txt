@@ -745,11 +745,6 @@ vendor/lib64/libcneqmiutils.so|cf5b5620754c28002d081d795e89c1aa50b96032
 vendor/lib64/libwqe.so|47afecb9615f1dcad01e2d36f47a08229f5c43aa
 vendor/lib64/libxml.so|dba175d291e1adc004bf1463db091cde95a0d92d
 
-# Dirac
-vendor/etc/diracmobile.config
-lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so
-lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so
-
 # Display calibration
 etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml
 etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml
